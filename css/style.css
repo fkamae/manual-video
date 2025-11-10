@@ -7,3 +7,11 @@ video {
   border-radius: 12px;   /* 角を少し丸く（おしゃれ） */
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* 軽い影 */
 }
+.manual-video {
+  width: 80%;           /* ページ幅の8割にする */
+  max-width: 700px;     /* それ以上大きくならない */
+  display: block;
+  margin: 20px auto;    /* 上下20px、左右中央寄せ */
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
