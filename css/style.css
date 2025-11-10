@@ -1,0 +1,9 @@
+/* 動画プレイヤーのサイズを調整 */
+video {
+  max-width: 800px;     /* 最大幅（好きな幅に調整OK） */
+  width: 100%;           /* 画面サイズに合わせて縮む */
+  display: block;
+  margin: 0 auto;        /* 中央寄せ */
+  border-radius: 12px;   /* 角を少し丸く（おしゃれ） */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* 軽い影 */
+}
