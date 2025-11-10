@@ -1,32 +1,15 @@
-/* 動画プレイヤーのサイズを調整 */
-video {
-  max-width: 800px;     /* 最大幅（好きな幅に調整OK） */
-  width: 100%;           /* 画面サイズに合わせて縮む */
-  display: block;
-  margin: 0 auto;        /* 中央寄せ */
-  border-radius: 12px;   /* 角を少し丸く（おしゃれ） */
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* 軽い影 */
-}
-.manual-video {
-  width: 80%;           /* ページ幅の8割にする */
-  max-width: 700px;     /* それ以上大きくならない */
-  display: block;
-  margin: 20px auto;    /* 上下20px、左右中央寄せ */
-  border-radius: 10px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
-}
-/* コンテンツの“枠” */
+/* ページの枠：中央寄せ＆横幅の上限を決める */
 .wrap {
-  max-width: 960px;     /* はみ出さない上限（好みで 800〜1080px など） */
-  margin: 24px auto;    /* 画面中央に配置 */
-  padding: 0 16px;      /* 端がくっつかないよう余白 */
+  max-width: 960px;      /* ここを 800〜1080px で好み調整可 */
+  margin: 24px auto;
+  padding: 0 16px;
 }
 
-/* 動画は枠の中で100%まで広がる（枠より大きくならない） */
+/* 動画：枠の中で100%まで広がる（枠を超えない） */
 .manual-video {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9; /* 高さが暴れないよう比率固定 */
+  aspect-ratio: 16 / 9;  /* 高さが暴れないよう比率固定 */
   display: block;
   border-radius: 10px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
