@@ -4,16 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>製品マニュアル動画</title>
+  <!-- 必ず head の中で CSS を読み込む。パスは小文字で css/style.css -->
+  <link rel="stylesheet" href="css/style.css?v=3" />
 </head>
 <body>
   <div class="wrap">
     <h1>製品マニュアル動画</h1>
 
+    <!-- width 属性は付けない。クラス manual-video を必ず付ける -->
     <video class="manual-video" controls preload="metadata">
       <source src="omochabako.mp4" type="video/mp4">
       お使いのブラウザは動画再生に対応していません。
     </video>
   </div>
 </body>
-
 </html>
+
